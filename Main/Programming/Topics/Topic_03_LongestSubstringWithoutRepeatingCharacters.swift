@@ -7,8 +7,8 @@
 
 import Foundation
 
-class Topic_03_LongestSubstringWithoutRepeatingCharacters : NSObject {
-    func TestCase() {
+class Topic_03_LongestSubstringWithoutRepeatingCharacters : Base {
+    func testCase() {
         print("https://leetcode.cn/problems/longest-substring-without-repeating-characters/")
         let s = "abcabcbb"
 //        let s = "bbbb"

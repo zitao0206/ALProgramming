@@ -1,13 +1,13 @@
 //
-//  CommonOps.swift
+//  StringCommonOps.swift
 //  Topics
 //
 //  Created by lizitao on 2022/11/21.
 //
 import Foundation
 
-class CommonOpsForString : NSObject {
-    func TestCase() {
+class StringCommonOps : Base {
+    func testCase() {
 //        let s = "abcdefg"
 //        let results = obtanSubstring(s: s, begin: 2, end: 3)
 //        print(results)

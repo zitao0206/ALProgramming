@@ -6,8 +6,8 @@
 //
 
 import Foundation
-class Topic_09_PalindromeNumber {
-    func TestCase() {
+class Topic_09_PalindromeNumber : Base {
+    func testCase() {
         print("https://leetcode.cn/problems/palindrome-number/")
         let x = 120021
         let result = isPalindrome(x)

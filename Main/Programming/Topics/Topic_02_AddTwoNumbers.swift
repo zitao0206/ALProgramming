@@ -45,8 +45,8 @@ class List {
     }
 }
  
-class Topic_02_AddTwoNumbers : NSObject {
-    func TestCase() {
+class Topic_02_AddTwoNumbers : Base {
+    func testCase() {
         print("https://leetcode.cn/problems/add-two-numbers/")
         
         let one_l1 = ListNode(9)

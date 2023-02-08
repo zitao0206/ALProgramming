@@ -7,8 +7,8 @@
 
 import Foundation
 
-class Topic_16_ThreeSumClosest : NSObject {
-    func TestCase() {
+class Topic_16_ThreeSumClosest : Base {
+    func testCase() {
         let nums = [4,0,5,-5,3,3,0,-4,-5]
         let target = -2
         let results = threeSumClosest(nums, target)

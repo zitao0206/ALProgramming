@@ -7,8 +7,8 @@
 
 import Foundation
 
-class Topic_12_IntegerToRoman : NSObject {
-    func TestCase() {
+class Topic_12_IntegerToRoman : Base {
+    func testCase() {
         let num = 1994
         let result = intToRoman(num)
         print(result)

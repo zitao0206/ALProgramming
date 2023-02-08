@@ -7,8 +7,8 @@
 
 import Foundation
 
-class Topic_01_TwoSum : NSObject {
-    func TestCase() {
+class Topic_01_TwoSum : Base {
+    func testCase() {
         print("https://leetcode.cn/problems/two-sum/")
         let nums:[Int] = [2,7,11,15]
         let target = 26

@@ -7,8 +7,8 @@
 
 import Foundation
 
-class Topic_04_LongestPalindromicSubstring : NSObject {
-    func TestCase() {
+class Topic_04_LongestPalindromicSubstring : Base {
+    func testCase() {
         print("https://leetcode.cn/problems/longest-substring-without-repeating-characters/")
 //        let s = "babad"
 //        let s = "babad"

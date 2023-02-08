@@ -1,5 +1,5 @@
 //
-//  CommonOpsForDic.swift
+//  DictionaryCommonOps.swift
 //  Topics
 //
 //  Created by lizitao on 2022/11/22.
@@ -7,8 +7,9 @@
 
 import Foundation
 
-class CommonOpsForDic : NSObject {
-    func TestCase() {
+class DictionaryCommonOps : Base {
+    
+    func testCase() {
         opsForDic()
     }
     

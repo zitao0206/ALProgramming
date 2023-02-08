@@ -7,8 +7,8 @@
 
 import Foundation
 
-class Topic_15_ThreeSum : NSObject {
-    func TestCase() {
+class Topic_15_ThreeSum : Base {
+    func testCase() {
         let nums = [-1,0,1,2,-1,-4]
         let results = threeSum(nums)
         print(results)

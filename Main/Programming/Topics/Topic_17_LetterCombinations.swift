@@ -7,8 +7,8 @@
 
 import Foundation
 
-class Topic_17_LetterCombinations : NSObject {
-    func TestCase() {
+class Topic_17_LetterCombinations : Base {
+    func testCase() {
         let nums = "234"
       
         let results = letterCombinations(nums)

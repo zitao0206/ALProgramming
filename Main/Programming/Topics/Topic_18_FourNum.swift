@@ -7,8 +7,8 @@
 
 import Foundation
 
-class Topic_18_FourNum : NSObject {
-    func TestCase() {
+class Topic_18_FourNum : Base {
+    func testCase() {
         let nums = [-1, 0, 1, 1, 2, 3]
         //[-2, -1, 0, 0, 1, 2]
         // 0

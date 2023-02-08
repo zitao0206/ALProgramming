@@ -8,13 +8,16 @@
 import Foundation
 
 let topicsTest = TopicsTest()
-topicsTest.TestCase()
+topicsTest.testCase()
 
 let commonOpsTest = CommonOpsTest()
-commonOpsTest.TestCase()
+commonOpsTest.testCase()
 
 let algorithmsTest = AlgorithmsTest()
-algorithmsTest.TestCase()
+algorithmsTest.testCase()
+
+let othersOpsTest = OthersOpsTest()
+othersOpsTest.testCase()
 
 
 

@@ -43,8 +43,8 @@ import Foundation
 //    }
 //}
  
-class Topic_19_RemoveNthFromEnd : NSObject {
-    func TestCase() {
+class Topic_19_RemoveNthFromEnd : Base {
+    func testCase() {
         
         let l1 = ListNode(1)
         let l2 = ListNode(2)

@@ -1,5 +1,5 @@
 //
-//  CommonOpsForArr.swift
+//  ArrayCommonOps.swift
 //  Topics
 //
 //  Created by lizitao on 2022/11/22.
@@ -41,9 +41,9 @@ extension Array {
         }
     }
 }
-class CommonOpsForArr : NSObject {
+class ArrayCommonOps : Base {
     
-    func TestCase() {
+    func testCase() {
 //        opsForZip()
         sliceForArr()
 

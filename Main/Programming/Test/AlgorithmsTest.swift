@@ -7,9 +7,9 @@
 
 import Foundation
 
-class AlgorithmsTest : NSObject {
+class AlgorithmsTest : Base {
  
-    func TestCase() {
+    func testCase() {
         
     }
 }

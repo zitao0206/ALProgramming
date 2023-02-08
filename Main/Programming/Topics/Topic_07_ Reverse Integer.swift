@@ -6,8 +6,8 @@
 //
 
 import Foundation
-class Topic_07_ReverseInteger {
-    func TestCase() {
+class Topic_07_ReverseInteger : Base {
+    func testCase() {
         print("https://leetcode.cn/problems/reverse-integer/")
         let x = 1534236469
         let result = reverse(x)
