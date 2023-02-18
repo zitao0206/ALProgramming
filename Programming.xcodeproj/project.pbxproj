@@ -33,6 +33,7 @@
 		D897AF392993A7EB00198FAF /* AlgorithmsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D897AF342993A7EB00198FAF /* AlgorithmsTest.swift */; };
 		D897AF3A2993A7EB00198FAF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D897AF352993A7EB00198FAF /* main.swift */; };
 		D8E62CF729A0B7DA0019DE2B /* Topic_121_BestTimeToBuyAndSellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E62CF629A0B7DA0019DE2B /* Topic_121_BestTimeToBuyAndSellStock.swift */; };
+		D8E62CF929A0BDE90019DE2B /* Topic_66_PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E62CF829A0BDE90019DE2B /* Topic_66_PlusOne.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -75,6 +76,7 @@
 		D897AF342993A7EB00198FAF /* AlgorithmsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgorithmsTest.swift; sourceTree = "<group>"; };
 		D897AF352993A7EB00198FAF /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D8E62CF629A0B7DA0019DE2B /* Topic_121_BestTimeToBuyAndSellStock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Topic_121_BestTimeToBuyAndSellStock.swift; sourceTree = "<group>"; };
+		D8E62CF829A0BDE90019DE2B /* Topic_66_PlusOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Topic_66_PlusOne.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				D8E62CF629A0B7DA0019DE2B /* Topic_121_BestTimeToBuyAndSellStock.swift */,
+				D8E62CF829A0BDE90019DE2B /* Topic_66_PlusOne.swift */,
 				D897AEFD2993A20300198FAF /* Topic_09_Palindrome Number.swift */,
 				D897AEFE2993A20300198FAF /* Topic_19_RemoveNthFromEnd.swift */,
 				D897AEFF2993A20300198FAF /* Topic_03_LongestSubstringWithoutRepeatingCharacters.swift */,
@@ -263,6 +266,7 @@
 				D897AF152993A20300198FAF /* Topic_04_LongestPalindromicSubstring.swift in Sources */,
 				D897AF392993A7EB00198FAF /* AlgorithmsTest.swift in Sources */,
 				D897AF172993A20300198FAF /* Topic_16_ThreeSumClosest.swift in Sources */,
+				D8E62CF929A0BDE90019DE2B /* Topic_66_PlusOne.swift in Sources */,
 				D897AF182993A20300198FAF /* Topic_13_RomanToInteger.swift in Sources */,
 				D897AF132993A20300198FAF /* Topic_03_LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
 				D897AF2E2993A70600198FAF /* BinaryTree.swift in Sources */,
