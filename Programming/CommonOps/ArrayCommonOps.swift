@@ -78,6 +78,15 @@ class ArrayCommonOps : CommonOpsProtocol {
         print(a)
         print(b)
         print(c)
+        //二维数组：
+//        var array2D = [[Int]](repeating: [Int](repeating: 0, count: 4), count: 3)
+        var array2D = Array(repeating: Array(repeating: 0, count: 4), count: 3)
+        for i in 0...2 {
+            for j in 0...3 {
+               array2D[i][j] = 1
+           }
+        }
+        print(array2D)
     }
     //数组的遍历
     func visitForArray() {
@@ -195,6 +204,7 @@ class ArrayCommonOps : CommonOpsProtocol {
     }
     
     func testCase() {
+        initForArray()
         customMapTest()
         customReduceTest()
         customFilterTest()
