@@ -10,8 +10,8 @@ import Foundation
 class TopicsTest : CommonOpsProtocol {
     func testCase() {
         
-        let topic_121 = Topic_121_BestTimeToBuyAndSellStock()
-        topic_121.testCase()
+//        let topic_121 = Topic_121_BestTimeToBuyAndSellStock()
+//        topic_121.testCase()
         
         //let topic_19 = Topic_19_RemoveNthFromEnd()
         //topic_19.testCase()
@@ -39,11 +39,14 @@ class TopicsTest : CommonOpsProtocol {
         //let topic_07 = Topic_07_ReverseInteger()
         //topic_07.testCase()
 
-        //let longestPalindromicSubstring = Topic_04_LongestPalindromicSubstring()
-        //longestPalindromicSubstring.testCase()
+        let longestPalindromicSubstring = Topic_05_LongestPalindromicSubstring()
+        longestPalindromicSubstring.testCase()
 
-        //let addTwoNumbers = Topic_03_LongestSubstringWithoutRepeatingCharacters()
-        //addTwoNumbers.testCase()
+//        let topic_04 = Topic_04_MedianofTwoSortedArrays()
+//        topic_04.testCase()
+        
+//        let addTwoNumbers = Topic_03_LongestSubstringWithoutRepeatingCharacters()
+//        addTwoNumbers.testCase()
 
         //let addTwoNumbers = Topic_02_AddTwoNumbers()
         //addTwoNumbers.testCase()
