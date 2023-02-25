@@ -39,6 +39,8 @@
 		D8E62CF929A0BDE90019DE2B /* Topic_66_PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E62CF829A0BDE90019DE2B /* Topic_66_PlusOne.swift */; };
 		D8EB3C9329A9D2E50042E9A0 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EB3C9229A9D2E50042E9A0 /* BubbleSort.swift */; };
 		D8EB3C9529A9D2FA0042E9A0 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EB3C9429A9D2FA0042E9A0 /* MergeSort.swift */; };
+		D8EB3C9729A9E6250042E9A0 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EB3C9629A9E6250042E9A0 /* QuickSort.swift */; };
+		D8EB3C9929A9EF670042E9A0 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EB3C9829A9EF670042E9A0 /* InsertionSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -87,6 +89,8 @@
 		D8E62CF829A0BDE90019DE2B /* Topic_66_PlusOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Topic_66_PlusOne.swift; sourceTree = "<group>"; };
 		D8EB3C9229A9D2E50042E9A0 /* BubbleSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 		D8EB3C9429A9D2FA0042E9A0 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
+		D8EB3C9629A9E6250042E9A0 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
+		D8EB3C9829A9EF670042E9A0 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +227,8 @@
 			children = (
 				D8EB3C9229A9D2E50042E9A0 /* BubbleSort.swift */,
 				D8EB3C9429A9D2FA0042E9A0 /* MergeSort.swift */,
+				D8EB3C9829A9EF670042E9A0 /* InsertionSort.swift */,
+				D8EB3C9629A9E6250042E9A0 /* QuickSort.swift */,
 			);
 			path = Sorting;
 			sourceTree = "<group>";
@@ -289,6 +295,7 @@
 				D897AF0D2993A20300198FAF /* StringCommonOps.swift in Sources */,
 				D8EB3C9529A9D2FA0042E9A0 /* MergeSort.swift in Sources */,
 				D897AF162993A20300198FAF /* Topic_02_AddTwoNumbers.swift in Sources */,
+				D8EB3C9729A9E6250042E9A0 /* QuickSort.swift in Sources */,
 				D8EB3C9329A9D2E50042E9A0 /* BubbleSort.swift in Sources */,
 				D897AF1C2993A20300198FAF /* Topic_12_IntegerToRoman.swift in Sources */,
 				D897AF372993A7EB00198FAF /* CommonOpsTest.swift in Sources */,
@@ -307,6 +314,7 @@
 				D897AF1A2993A20300198FAF /* Topic_17_LetterCombinations.swift in Sources */,
 				D86C196229A7060A007BCF97 /* Example00.swift in Sources */,
 				D897AF122993A20300198FAF /* Topic_19_RemoveNthFromEnd.swift in Sources */,
+				D8EB3C9929A9EF670042E9A0 /* InsertionSort.swift in Sources */,
 				D897AF3A2993A7EB00198FAF /* main.swift in Sources */,
 				D86C195F29A7052C007BCF97 /* SwiftTest.swift in Sources */,
 				D897AF0E2993A20300198FAF /* ArrayCommonOps.swift in Sources */,
