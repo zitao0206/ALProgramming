@@ -27,10 +27,7 @@ class Example00 : CommonOpsProtocol {
     }
     
     func testCase() {
-        fridgeContains("banana")
-        print(fridgeIsOpen)
-        
-        
+   
     }
     
 }

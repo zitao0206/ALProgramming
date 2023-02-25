@@ -37,6 +37,7 @@
 		D8A087B829A750C70087A6B1 /* Topic_04_MedianofTwoSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A087B729A750C70087A6B1 /* Topic_04_MedianofTwoSortedArrays.swift */; };
 		D8E62CF729A0B7DA0019DE2B /* Topic_121_BestTimeToBuyAndSellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E62CF629A0B7DA0019DE2B /* Topic_121_BestTimeToBuyAndSellStock.swift */; };
 		D8E62CF929A0BDE90019DE2B /* Topic_66_PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E62CF829A0BDE90019DE2B /* Topic_66_PlusOne.swift */; };
+		D8EB3C9129A9B20B0042E9A0 /* BubbleSorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EB3C9029A9B20B0042E9A0 /* BubbleSorting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -83,6 +84,7 @@
 		D8A087B729A750C70087A6B1 /* Topic_04_MedianofTwoSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic_04_MedianofTwoSortedArrays.swift; sourceTree = "<group>"; };
 		D8E62CF629A0B7DA0019DE2B /* Topic_121_BestTimeToBuyAndSellStock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Topic_121_BestTimeToBuyAndSellStock.swift; sourceTree = "<group>"; };
 		D8E62CF829A0BDE90019DE2B /* Topic_66_PlusOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Topic_66_PlusOne.swift; sourceTree = "<group>"; };
+		D8EB3C9029A9B20B0042E9A0 /* BubbleSorting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleSorting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 		D897AF2A2993A70600198FAF /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				D8EB3C8F29A9B20B0042E9A0 /* Sorting */,
 				D897AF2B2993A70600198FAF /* LinkedList.swift */,
 				D897AF2C2993A70600198FAF /* BinaryTree.swift */,
 			);
@@ -211,6 +214,14 @@
 				D86C195E29A7052C007BCF97 /* SwiftTest.swift */,
 			);
 			path = Test;
+			sourceTree = "<group>";
+		};
+		D8EB3C8F29A9B20B0042E9A0 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				D8EB3C9029A9B20B0042E9A0 /* BubbleSorting.swift */,
+			);
+			path = Sorting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +284,7 @@
 			files = (
 				D8E62CF729A0B7DA0019DE2B /* Topic_121_BestTimeToBuyAndSellStock.swift in Sources */,
 				D897AF0D2993A20300198FAF /* StringCommonOps.swift in Sources */,
+				D8EB3C9129A9B20B0042E9A0 /* BubbleSorting.swift in Sources */,
 				D897AF162993A20300198FAF /* Topic_02_AddTwoNumbers.swift in Sources */,
 				D897AF1C2993A20300198FAF /* Topic_12_IntegerToRoman.swift in Sources */,
 				D897AF372993A7EB00198FAF /* CommonOpsTest.swift in Sources */,

@@ -10,6 +10,7 @@ import Foundation
 class AlgorithmsTest : CommonOpsProtocol {
  
     func testCase() {
-        
+        let bubbleSorting = BubbleSorting()
+        bubbleSorting.testCase()
     }
 }

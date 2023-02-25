@@ -102,6 +102,13 @@ class ArrayCommonOps : CommonOpsProtocol {
         for obj in a.dropLast(3) {
             print(obj) //1,2,3
         }
+        let kCount = a.count
+        for i in 0...kCount {
+            print(a[i]) //1,2,3
+        }
+        for i in 0 ..< kCount {
+            print(a[i]) //1,2,3
+        }
         print("-----------带元素下标的访问--------------")
         for (i, obj) in a.enumerated() {
             print("\(i)-->\(obj)")

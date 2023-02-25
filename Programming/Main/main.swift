@@ -10,15 +10,15 @@ import Foundation
 //let swiftTest = SwiftTest()
 //swiftTest.testCase()
 
-let topicsTest = TopicsTest()
-topicsTest.testCase()
+//let topicsTest = TopicsTest()
+//topicsTest.testCase()
 
-let commonOpsTest = CommonOpsTest()
-commonOpsTest.testCase()
-//
-//let algorithmsTest = AlgorithmsTest()
-//algorithmsTest.testCase()
-//
+//let commonOpsTest = CommonOpsTest()
+//commonOpsTest.testCase()
+
+let algorithmsTest = AlgorithmsTest()
+algorithmsTest.testCase()
+
 //let othersOpsTest = OthersOpsTest()
 //othersOpsTest.testCase()
 
