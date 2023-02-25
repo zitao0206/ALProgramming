@@ -13,8 +13,8 @@ import Foundation
 //let topicsTest = TopicsTest()
 //topicsTest.testCase()
 
-//let commonOpsTest = CommonOpsTest()
-//commonOpsTest.testCase()
+let commonOpsTest = CommonOpsTest()
+commonOpsTest.testCase()
 
 let algorithmsTest = AlgorithmsTest()
 algorithmsTest.testCase()

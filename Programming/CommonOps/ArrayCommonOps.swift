@@ -90,7 +90,7 @@ class ArrayCommonOps : CommonOpsProtocol {
     }
     //数组的遍历
     func visitForArray() {
-        let a = [1, 2, 3, 4, 5, 6]
+        let a = [10, 20, 30, 40, 50, 60]
         print("-----------全部遍历-------------")
         for obj in a {
             print(obj) // 1,2,3,4,5,6
@@ -103,11 +103,11 @@ class ArrayCommonOps : CommonOpsProtocol {
             print(obj) //1,2,3
         }
         let kCount = a.count
-        for i in 0...kCount {
-            print(a[i]) //1,2,3
+        for i in 0..<kCount {
+            print(a[i]) //1,2,3,4,5,6
         }
-        for i in 0 ..< kCount {
-            print(a[i]) //1,2,3
+        for (i, obj) in Array(a[0..<2]).enumerated() {
+            print("\(i)-->\(obj)")
         }
         print("-----------带元素下标的访问--------------")
         for (i, obj) in a.enumerated() {
@@ -212,6 +212,7 @@ class ArrayCommonOps : CommonOpsProtocol {
     
     func testCase() {
         initForArray()
+        visitForArray()
         customMapTest()
         customReduceTest()
         customFilterTest()
