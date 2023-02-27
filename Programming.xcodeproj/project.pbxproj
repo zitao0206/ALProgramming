@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D83481AB29AC92E1000B84E2 /* Topic_283_MoveZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83481AA29AC92E1000B84E2 /* Topic_283_MoveZeroes.swift */; };
 		D86C195F29A7052C007BCF97 /* SwiftTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86C195E29A7052C007BCF97 /* SwiftTest.swift */; };
 		D86C196229A7060A007BCF97 /* Example00.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86C196129A7060A007BCF97 /* Example00.swift */; };
 		D897AF0D2993A20300198FAF /* StringCommonOps.swift in Sources */ = {isa = PBXBuildFile; fileRef = D897AEF72993A20300198FAF /* StringCommonOps.swift */; };
@@ -56,6 +57,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D83481AA29AC92E1000B84E2 /* Topic_283_MoveZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic_283_MoveZeroes.swift; sourceTree = "<group>"; };
 		D86C195E29A7052C007BCF97 /* SwiftTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTest.swift; sourceTree = "<group>"; };
 		D86C196129A7060A007BCF97 /* Example00.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example00.swift; sourceTree = "<group>"; };
 		D897AEBF2993A02700198FAF /* Programming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Programming; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -164,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				D8E62CF629A0B7DA0019DE2B /* Topic_121_BestTimeToBuyAndSellStock.swift */,
+				D83481AA29AC92E1000B84E2 /* Topic_283_MoveZeroes.swift */,
 				D8E62CF829A0BDE90019DE2B /* Topic_66_PlusOne.swift */,
 				D897AEFD2993A20300198FAF /* Topic_09_Palindrome Number.swift */,
 				D897AEFE2993A20300198FAF /* Topic_19_RemoveNthFromEnd.swift */,
@@ -318,6 +321,7 @@
 				D897AF3A2993A7EB00198FAF /* main.swift in Sources */,
 				D86C195F29A7052C007BCF97 /* SwiftTest.swift in Sources */,
 				D897AF0E2993A20300198FAF /* ArrayCommonOps.swift in Sources */,
+				D83481AB29AC92E1000B84E2 /* Topic_283_MoveZeroes.swift in Sources */,
 				D897AF102993A20300198FAF /* OpsForReadMe.swift in Sources */,
 				D897AF382993A7EB00198FAF /* OthersOpsTest.swift in Sources */,
 				D897AF0F2993A20300198FAF /* DictionaryCommonOps.swift in Sources */,

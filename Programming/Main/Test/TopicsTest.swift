@@ -10,6 +10,9 @@ import Foundation
 class TopicsTest : CommonOpsProtocol {
     func testCase() {
         
+        let topic_283 = Topic_283_MoveZeroes()
+        topic_283.testCase()
+        
 //        let topic_121 = Topic_121_BestTimeToBuyAndSellStock()
 //        topic_121.testCase()
         

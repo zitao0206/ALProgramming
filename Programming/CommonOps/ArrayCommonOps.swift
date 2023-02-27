@@ -87,6 +87,11 @@ class ArrayCommonOps : CommonOpsProtocol {
            }
         }
         print(array2D)
+        //String转数组
+        let ss = "abcd"
+        let ssArray = Array(ss)
+        print(ssArray)
+        
     }
     //数组的遍历
     func visitForArray() {
