@@ -6,6 +6,7 @@
 //
 
 import Foundation
+ 
 
 class Person {
     var name: String {
@@ -51,19 +52,33 @@ class Student: PersonObserver {
     }
 }
 
+class Base : NSObject {
+    var directProperty:String { return "This is Base" }
+    var indirectProperty:String { return directProperty }
+}
+
+class Sub:Base {
+    override var directProperty:String { return "This is Sub" }
+}
+
+extension Sub {
+//    @objc override var directProperty:String { return "This is Sub" }
+}
 
 class OthersOpsTest : CommonOpsProtocol {
  
     func testCase() {
         
+//        Base().directProperty // “This is Base”
+//        Sub().directProperty // “This is Sub”
         // 使用示例
-        let person = Person(name: "Jack")
-        let teacher = Teacher()
-        let student = Student()
-        person.registerObserver(teacher)
-        person.registerObserver(student)
-        person.name = "Rose"
-        
+//        let person = Person(name: "Jack")
+//        let teacher = Teacher()
+//        let student = Student()
+//        person.registerObserver(teacher)
+//        person.registerObserver(student)
+//        person.name = "Rose"
+//
         //let readMe = OpsForReadMe()
         //readMe.testCase()
     }

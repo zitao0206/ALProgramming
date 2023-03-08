@@ -9,42 +9,7 @@ import Foundation
 /**
  * Definition for singly-linked list.
  */
-class ListNode {
-    public var val: Int
-    public var next: ListNode?
-    public init() { self.val = 0; self.next = nil; }
-    public init(_ val: Int) { self.val = val; self.next = nil; }
-    public init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next; }
-}
 
-class List {
-    var head : ListNode?
-    var tail : ListNode?
-    
-    //尾插法
-    func appendToEnd(_ val : Int){
-        if tail == nil {
-            tail = ListNode(val)
-            head = tail
-        }else{
-            tail?.next = ListNode(val)
-            head = tail?.next
-        }
-    }
-    
-    //头插法
-    func appendToHead(_ val : Int){
-        if head == nil{
-            head = ListNode(val)
-            tail = head
-        }else{
-            let tmp = ListNode(val)
-            tail?.next = head
-            head?.next = tmp
-        }
-    }
-}
- 
 class Topic_02_AddTwoNumbers : CommonOpsProtocol {
     func testCase() {
         print("https://leetcode.cn/problems/add-two-numbers/")
@@ -53,12 +18,13 @@ class Topic_02_AddTwoNumbers : CommonOpsProtocol {
         let two_l1 = ListNode(9)
         let three_l1 = ListNode(9)
         
+        one_l1.next = two_l1
+        two_l1.next = three_l1
+        
         let one_l2 = ListNode(9)
         let two_l2 = ListNode(9)
 //        let three_l2 = ListNode(4)
-        
-        one_l1.next = two_l1
-        two_l1.next = three_l1
+    
         
         one_l2.next = two_l2
 //        two_l2.next = three_l2

@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D83481AB29AC92E1000B84E2 /* Topic_283_MoveZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83481AA29AC92E1000B84E2 /* Topic_283_MoveZeroes.swift */; };
+		D8457E5929B89A1B00CDDECB /* Topic_20_ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8457E5829B89A1B00CDDECB /* Topic_20_ValidParentheses.swift */; };
 		D86C195F29A7052C007BCF97 /* SwiftTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86C195E29A7052C007BCF97 /* SwiftTest.swift */; };
-		D86C196229A7060A007BCF97 /* Example00.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86C196129A7060A007BCF97 /* Example00.swift */; };
 		D897AF0D2993A20300198FAF /* StringCommonOps.swift in Sources */ = {isa = PBXBuildFile; fileRef = D897AEF72993A20300198FAF /* StringCommonOps.swift */; };
 		D897AF0E2993A20300198FAF /* ArrayCommonOps.swift in Sources */ = {isa = PBXBuildFile; fileRef = D897AEF82993A20300198FAF /* ArrayCommonOps.swift */; };
 		D897AF0F2993A20300198FAF /* DictionaryCommonOps.swift in Sources */ = {isa = PBXBuildFile; fileRef = D897AEF92993A20300198FAF /* DictionaryCommonOps.swift */; };
@@ -58,8 +58,8 @@
 
 /* Begin PBXFileReference section */
 		D83481AA29AC92E1000B84E2 /* Topic_283_MoveZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic_283_MoveZeroes.swift; sourceTree = "<group>"; };
+		D8457E5829B89A1B00CDDECB /* Topic_20_ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic_20_ValidParentheses.swift; sourceTree = "<group>"; };
 		D86C195E29A7052C007BCF97 /* SwiftTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTest.swift; sourceTree = "<group>"; };
-		D86C196129A7060A007BCF97 /* Example00.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example00.swift; sourceTree = "<group>"; };
 		D897AEBF2993A02700198FAF /* Programming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Programming; sourceTree = BUILT_PRODUCTS_DIR; };
 		D897AEF72993A20300198FAF /* StringCommonOps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringCommonOps.swift; sourceTree = "<group>"; };
 		D897AEF82993A20300198FAF /* ArrayCommonOps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayCommonOps.swift; sourceTree = "<group>"; };
@@ -106,14 +106,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D86C196029A705D6007BCF97 /* SwiftPOP */ = {
-			isa = PBXGroup;
-			children = (
-				D86C196129A7060A007BCF97 /* Example00.swift */,
-			);
-			path = SwiftPOP;
-			sourceTree = "<group>";
-		};
 		D897AEB62993A02700198FAF = {
 			isa = PBXGroup;
 			children = (
@@ -133,7 +125,6 @@
 		D897AEC12993A02700198FAF /* Programming */ = {
 			isa = PBXGroup;
 			children = (
-				D86C196029A705D6007BCF97 /* SwiftPOP */,
 				D897AF2F2993A7EB00198FAF /* Main */,
 				D897AF2A2993A70600198FAF /* Algorithms */,
 				D897AF202993A3AC00198FAF /* Base */,
@@ -172,6 +163,7 @@
 				D897AEFE2993A20300198FAF /* Topic_19_RemoveNthFromEnd.swift */,
 				D897AEFF2993A20300198FAF /* Topic_03_LongestSubstringWithoutRepeatingCharacters.swift */,
 				D8A087B729A750C70087A6B1 /* Topic_04_MedianofTwoSortedArrays.swift */,
+				D8457E5829B89A1B00CDDECB /* Topic_20_ValidParentheses.swift */,
 				D897AF002993A20300198FAF /* Topic_01_TwoSum.swift */,
 				D897AF012993A20300198FAF /* Topic_05_LongestPalindromicSubstring.swift */,
 				D897AF022993A20300198FAF /* Topic_02_AddTwoNumbers.swift */,
@@ -315,7 +307,6 @@
 				D897AF132993A20300198FAF /* Topic_03_LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
 				D897AF2E2993A70600198FAF /* BinaryTree.swift in Sources */,
 				D897AF1A2993A20300198FAF /* Topic_17_LetterCombinations.swift in Sources */,
-				D86C196229A7060A007BCF97 /* Example00.swift in Sources */,
 				D897AF122993A20300198FAF /* Topic_19_RemoveNthFromEnd.swift in Sources */,
 				D8EB3C9929A9EF670042E9A0 /* InsertionSort.swift in Sources */,
 				D897AF3A2993A7EB00198FAF /* main.swift in Sources */,
@@ -327,6 +318,7 @@
 				D897AF0F2993A20300198FAF /* DictionaryCommonOps.swift in Sources */,
 				D897AF142993A20300198FAF /* Topic_01_TwoSum.swift in Sources */,
 				D897AF1B2993A20300198FAF /* Topic_18_FourNum.swift in Sources */,
+				D8457E5929B89A1B00CDDECB /* Topic_20_ValidParentheses.swift in Sources */,
 				D897AF192993A20300198FAF /* Topic_15_ThreeSum.swift in Sources */,
 				D897AF222993A3AC00198FAF /* CommonOpsProtocol.swift in Sources */,
 			);

@@ -64,6 +64,7 @@ extension Array {
         }
     }
 }
+
 class ArrayCommonOps : CommonOpsProtocol {
     //数组的初始化
     func initForArray() {
@@ -216,6 +217,8 @@ class ArrayCommonOps : CommonOpsProtocol {
     }
     
     func testCase() {
+        
+        //Could not cast value of type 'Swift.String' (0x7ff8553bc178) to 'Swift.Int' (0x7ff8553be0e0).
         initForArray()
         visitForArray()
         customMapTest()
@@ -227,9 +230,9 @@ class ArrayCommonOps : CommonOpsProtocol {
         customSplitTest()
         customAccumulateTest()
     }
-    
-
    
 }
+
+
 
 

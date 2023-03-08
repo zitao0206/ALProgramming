@@ -9,7 +9,8 @@ import Foundation
 
 class SwiftTest : CommonOpsProtocol {
     func testCase() {
-        let ex00 = Example00()
-        ex00.testCase()
+        
+//        let ex00 = Example00()
+//        ex00.testCase()
     }
 }

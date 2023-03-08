@@ -10,6 +10,9 @@ import Foundation
 class AlgorithmsTest : CommonOpsProtocol {
  
     func testCase() {
+        let linkedList = LinkedList()
+        linkedList.testCase()
+        
 //        let bubbleSort = BubbleSort()
 //        bubbleSort.testCase()
 //
@@ -19,7 +22,7 @@ class AlgorithmsTest : CommonOpsProtocol {
 //        let quickSort = QuickSort()
 //        quickSort.testCase()
         
-        let insertionSort = InsertionSort()
-        insertionSort.testCase()
+//        let insertionSort = InsertionSort()
+//        insertionSort.testCase()
     }
 }

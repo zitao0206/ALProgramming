@@ -10,19 +10,23 @@ import Foundation
 class TopicsTest : CommonOpsProtocol {
     func testCase() {
         
-        let topic_283 = Topic_283_MoveZeroes()
-        topic_283.testCase()
+        
+//        let topic_283 = Topic_283_MoveZeroes()
+//        topic_283.testCase()
         
 //        let topic_121 = Topic_121_BestTimeToBuyAndSellStock()
 //        topic_121.testCase()
+        
+        let topic_20 = Topic_20_ValidParentheses()
+        topic_20.testCase()
         
         //let topic_19 = Topic_19_RemoveNthFromEnd()
         //topic_19.testCase()
         //let topic_18 = Topic_18_FourNum()
         //topic_18.testCase()
 
-        //let topic_17 = Topic_17_LetterCombinations()
-        //topic_17.testCase()
+//        let topic_17 = Topic_17_LetterCombinations()
+//        topic_17.testCase()
 
         //let topic_16 = Topic_16_ThreeSumClosest()
         //topic_16.testCase()
@@ -33,8 +37,8 @@ class TopicsTest : CommonOpsProtocol {
         //let topic_13 = Topic_13_RomanToInteger()
         //topic_13.testCase()
 
-        //let topic_12 = Topic_12_IntegerToRoman()
-        //topic_12.testCase()
+//        let topic_12 = Topic_12_IntegerToRoman()
+//        topic_12.testCase()
 
         //let topic_09 = Topic_09_PalindromeNumber()
         //topic_09.testCase()
@@ -42,8 +46,8 @@ class TopicsTest : CommonOpsProtocol {
         //let topic_07 = Topic_07_ReverseInteger()
         //topic_07.testCase()
 
-        let longestPalindromicSubstring = Topic_05_LongestPalindromicSubstring()
-        longestPalindromicSubstring.testCase()
+//        let topic_05 = Topic_05_LongestPalindromicSubstring()
+//        topic_05.testCase()
 
 //        let topic_04 = Topic_04_MedianofTwoSortedArrays()
 //        topic_04.testCase()

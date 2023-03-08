@@ -6,6 +6,7 @@
 //
 import Foundation
 
+
 class StringCommonOps : CommonOpsProtocol {
     func testCase() {
 //        let s = "abcdefg"
@@ -14,11 +15,23 @@ class StringCommonOps : CommonOpsProtocol {
 //        forloop1(s)
 //        forloop2(s)
 //        forloop3(s)
+        obtainIndexString()
         StringToNSString()
         NSStringToString()
         deleSubstring()
     }
-
+    func obtainIndexString() {
+        let greeting = "Guten Tag!"
+        print(greeting[greeting.startIndex])
+        // G
+        print(greeting[greeting.index(before: greeting.endIndex)])
+        // !
+        print(greeting[greeting.index(after: greeting.startIndex)])
+        // u
+        let index = greeting.index(greeting.startIndex, offsetBy: 7)
+        print(greeting[index])
+        
+    }
     //获取子串
     func obtanSubstring(s: String, begin: Int, end: Int) -> String {
         let res = String(s[s.index(s.startIndex, offsetBy: begin)..<s.index(s.startIndex, offsetBy: end + 1)])
@@ -35,6 +48,15 @@ class StringCommonOps : CommonOpsProtocol {
         ss.remove(at: ss.index(ss.startIndex, offsetBy: 4))
         print(ss)
         
+    }
+    //通用删除指定子串
+    func removeSubstring(_ original: String, _ subString: String) -> String {
+        if original.isEmpty || subString.isEmpty || !original.contains(subString) {
+            return original
+        }
+        var ss = original
+        ss = ss.replacingOccurrences(of: subString, with: "")
+        return ss
     }
     
     //字符串遍历
